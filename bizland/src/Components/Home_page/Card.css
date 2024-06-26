@@ -1,0 +1,10 @@
+.phi{
+    height: 0;
+    transition: 0.5s ease;
+}
+.parent_phi:hover{
+    .phi{
+        height:100%;
+        background-color:#1d4ed8;
+    }
+}

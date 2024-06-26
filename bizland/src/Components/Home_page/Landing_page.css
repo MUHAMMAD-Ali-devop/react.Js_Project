@@ -1,0 +1,13 @@
+.parentHome{
+    position: relative;
+    z-index: 20;
+    animation: fade-in 1.5s ease-in-out 0s;
+}
+@keyframes fade-in{
+    from {
+        left: -150px;
+        opacity: 0;}
+    to {
+        left: 0px;
+        opacity: 1;}
+}
