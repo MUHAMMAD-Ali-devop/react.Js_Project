@@ -1,0 +1,25 @@
+.main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30pt 30pt;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.todoContainer {
+    background-color: rgb(39, 38, 38);
+    border-radius: 5pt;
+    margin-top: 20pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 75%;
+    height: auto;
+    padding: 30pt 20pt;
+}

@@ -1,0 +1,96 @@
+.addedMain {
+    margin-top: 50px;
+    background-color: rgb(21, 20, 20);
+    border-radius: 10px;
+    min-height: 220px;
+    width: 90%;
+    overflow: hidden;
+}
+
+.addedTasksContainer {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    min-height: 100%;
+
+}
+
+.addedTasksContainer> :first-child {
+    margin-top: 40px;
+}
+
+.addedTasksContainer::-webkit-scrollbar {
+    width: 8px;
+}
+
+.addedTasksContainer::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: white;
+}
+
+.addedTasksContainer::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 10px;
+    gap: 20px;
+}
+
+.task:hover {
+    cursor: pointer;
+}
+
+.taskTitle {
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: clip;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.taskTitle:focus {
+    outline: none;
+}
+
+.taskBtn {
+    display: flex;
+    gap: 15px;
+
+}
+
+.updateBtn,
+.deleteBtn {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.updateBtn:hover,
+.deleteBtn:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
